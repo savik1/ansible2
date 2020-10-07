@@ -1,0 +1,5 @@
+---
+# vars file for build
+repo:
+  dir: /home/sampleTest/
+  url: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git

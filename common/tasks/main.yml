@@ -1,0 +1,6 @@
+---
+# tasks file for common
+- name: Ensure default-jdk pkg is present
+  apt:
+    name: default-jdk
+    state: present

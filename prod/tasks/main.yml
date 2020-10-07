@@ -1,0 +1,10 @@
+---
+# tasks file for prod
+- name: Ensure tomcat pkg is present
+  apt:
+    name: tomcat8
+    state: present
+- name: copy file from local to web
+  copy: src=/tmp/hello-1.0.war dest={{ webapps_dir }}hello-1.0.war
+  notify: 
+    restart tomcat

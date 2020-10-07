@@ -1,0 +1,3 @@
+---
+# vars file for prod
+webapps_dir: /var/lib/tomcat8/webapps/
